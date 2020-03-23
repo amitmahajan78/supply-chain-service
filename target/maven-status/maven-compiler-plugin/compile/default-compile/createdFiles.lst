@@ -1,0 +1,10 @@
+com/supply/chain/order/worker/config/SchedulerConfiguration.class
+com/supply/chain/order/worker/domain/SalesOrder.class
+com/supply/chain/order/worker/task/OrderCreationTask.class
+com/supply/chain/order/worker/consumer/SalesOrderListener.class
+com/supply/chain/order/worker/consumer/SalesOrderListenerConfig.class
+com/supply/chain/order/worker/OrderWorkerApplication.class
+com/supply/chain/order/worker/producer/FooSenderConfig.class
+com/supply/chain/order/worker/Foo.class
+com/supply/chain/order/worker/repository/SalesOrderRepository.class
+com/supply/chain/order/worker/producer/FooSender.class
