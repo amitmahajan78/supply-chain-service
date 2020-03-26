@@ -30,11 +30,11 @@ public class OrderCreationTask {
     private Environment env;
 
 
-    @Scheduled(cron = "*/1 * * * * *")
+    @Scheduled(cron = "*/5 * * * * *")
     @SchedulerLock(name = "OrderCreation_scheduledTask",
-            lockAtLeastForString = "PT1M", lockAtMostForString = "PT1M")
+            lockAtLeastForString = "PT5M", lockAtMostForString = "PT6M")
     public void orderCreationScheduledTask() {
-        log.info("OrderCreation_scheduledTask");
+        log.info("OrderCreation_scheduledTask" + LocalDateTime.now());
 
         AuthDetails authDetails = new AuthDetails();
 
